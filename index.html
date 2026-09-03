@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hello world</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="signal-card">
+      <p class="label">CS110 // Week 2</p>
+      <h1>Hello, World</h1>
+
+      <p class="message">
+        Replace this sample text with the message your dome must send to the
+        next crew.
+      </p>
+
+      <p id="dome-status" class="status">Kairova status: awaiting signal</p>
+      <button id="signal-button" type="button">Confirm signal</button>
+
+      <button class="my-button">Click Me</button>
+
+<style>
+  .my-button {
+    background-color: #1a1568;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .my-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+
+  .my-button:active {
+    transform: translateY(0);
+  }
+</style>
+
+
+      <section class="crew-note" aria-labelledby="crew-note-title">
+        <h2 id="crew-note-title">Next-crew instruction</h2>
+        <p>These are instructions</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
